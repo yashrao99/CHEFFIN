@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40F09F58AE2F3AA385EEA175 /* Pods_CHEFFIN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 332804CC103D8ABE7771EEC0 /* Pods_CHEFFIN.framework */; };
+		F7023FB721D2AEE100E6519C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7023FB621D2AEE100E6519C /* Constants.swift */; };
+		F7266A3521D45AF800B4CD0F /* Recipe+CRUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7266A3421D45AF800B4CD0F /* Recipe+CRUD.swift */; };
+		F73447BF21D2AAC5001BA5EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73447BE21D2AAC5001BA5EA /* AppDelegate.swift */; };
+		F73447C721D2AAC5001BA5EA /* CHEFFIN.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F73447C521D2AAC5001BA5EA /* CHEFFIN.xcdatamodeld */; };
+		F73447C921D2AAC5001BA5EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F73447C821D2AAC5001BA5EA /* Assets.xcassets */; };
+		F73447CC21D2AAC5001BA5EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F73447CA21D2AAC5001BA5EA /* LaunchScreen.storyboard */; };
+		F73447D521D2AAFC001BA5EA /* SearchRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73447D321D2AAFC001BA5EA /* SearchRecipeViewController.swift */; };
+		F73447D621D2AAFC001BA5EA /* SearchRecipeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F73447D421D2AAFC001BA5EA /* SearchRecipeViewController.xib */; };
+		F73447D821D2AB14001BA5EA /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73447D721D2AB14001BA5EA /* NetworkManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07B363E28EE561CC490914D0 /* Pods-CHEFFIN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHEFFIN.release.xcconfig"; path = "Pods/Target Support Files/Pods-CHEFFIN/Pods-CHEFFIN.release.xcconfig"; sourceTree = "<group>"; };
+		332804CC103D8ABE7771EEC0 /* Pods_CHEFFIN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHEFFIN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB0B0F834BBE82729DEBD99E /* Pods-CHEFFIN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHEFFIN.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CHEFFIN/Pods-CHEFFIN.debug.xcconfig"; sourceTree = "<group>"; };
+		F7023FB621D2AEE100E6519C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F7266A3421D45AF800B4CD0F /* Recipe+CRUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Recipe+CRUD.swift"; sourceTree = "<group>"; };
+		F73447BB21D2AAC5001BA5EA /* CHEFFIN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CHEFFIN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F73447BE21D2AAC5001BA5EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F73447C621D2AAC5001BA5EA /* CHEFFIN.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CHEFFIN.xcdatamodel; sourceTree = "<group>"; };
+		F73447C821D2AAC5001BA5EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F73447CB21D2AAC5001BA5EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F73447CD21D2AAC5001BA5EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F73447D321D2AAFC001BA5EA /* SearchRecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRecipeViewController.swift; sourceTree = "<group>"; };
+		F73447D421D2AAFC001BA5EA /* SearchRecipeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchRecipeViewController.xib; sourceTree = "<group>"; };
+		F73447D721D2AB14001BA5EA /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F73447B821D2AAC5001BA5EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F09F58AE2F3AA385EEA175 /* Pods_CHEFFIN.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13AF436BBB4E60B3DDE5BAF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				332804CC103D8ABE7771EEC0 /* Pods_CHEFFIN.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		302E15A2278BE81EDE16DA92 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB0B0F834BBE82729DEBD99E /* Pods-CHEFFIN.debug.xcconfig */,
+				07B363E28EE561CC490914D0 /* Pods-CHEFFIN.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F73447B221D2AAC5001BA5EA = {
+			isa = PBXGroup;
+			children = (
+				F73447BD21D2AAC5001BA5EA /* CHEFFIN */,
+				F73447BC21D2AAC5001BA5EA /* Products */,
+				302E15A2278BE81EDE16DA92 /* Pods */,
+				13AF436BBB4E60B3DDE5BAF4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F73447BC21D2AAC5001BA5EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F73447BB21D2AAC5001BA5EA /* CHEFFIN.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F73447BD21D2AAC5001BA5EA /* CHEFFIN */ = {
+			isa = PBXGroup;
+			children = (
+				F73447BE21D2AAC5001BA5EA /* AppDelegate.swift */,
+				F7266A3421D45AF800B4CD0F /* Recipe+CRUD.swift */,
+				F73447D321D2AAFC001BA5EA /* SearchRecipeViewController.swift */,
+				F73447D721D2AB14001BA5EA /* NetworkManager.swift */,
+				F7023FB621D2AEE100E6519C /* Constants.swift */,
+				F73447D421D2AAFC001BA5EA /* SearchRecipeViewController.xib */,
+				F73447C821D2AAC5001BA5EA /* Assets.xcassets */,
+				F73447CA21D2AAC5001BA5EA /* LaunchScreen.storyboard */,
+				F73447CD21D2AAC5001BA5EA /* Info.plist */,
+				F73447C521D2AAC5001BA5EA /* CHEFFIN.xcdatamodeld */,
+			);
+			path = CHEFFIN;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F73447BA21D2AAC5001BA5EA /* CHEFFIN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F73447D021D2AAC5001BA5EA /* Build configuration list for PBXNativeTarget "CHEFFIN" */;
+			buildPhases = (
+				D9EE8F8CE09FE0B17C902562 /* [CP] Check Pods Manifest.lock */,
+				F73447B721D2AAC5001BA5EA /* Sources */,
+				F73447B821D2AAC5001BA5EA /* Frameworks */,
+				F73447B921D2AAC5001BA5EA /* Resources */,
+				A2D19E9B7E79773F260EB95C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CHEFFIN;
+			productName = CHEFFIN;
+			productReference = F73447BB21D2AAC5001BA5EA /* CHEFFIN.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F73447B321D2AAC5001BA5EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Yash Rao";
+				TargetAttributes = {
+					F73447BA21D2AAC5001BA5EA = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = F73447B621D2AAC5001BA5EA /* Build configuration list for PBXProject "CHEFFIN" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F73447B221D2AAC5001BA5EA;
+			productRefGroup = F73447BC21D2AAC5001BA5EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F73447BA21D2AAC5001BA5EA /* CHEFFIN */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F73447B921D2AAC5001BA5EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F73447D621D2AAFC001BA5EA /* SearchRecipeViewController.xib in Resources */,
+				F73447CC21D2AAC5001BA5EA /* LaunchScreen.storyboard in Resources */,
+				F73447C921D2AAC5001BA5EA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A2D19E9B7E79773F260EB95C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CHEFFIN/Pods-CHEFFIN-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/MagicalRecord/MagicalRecord.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MagicalRecord.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CHEFFIN/Pods-CHEFFIN-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9EE8F8CE09FE0B17C902562 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CHEFFIN-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F73447B721D2AAC5001BA5EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7023FB721D2AEE100E6519C /* Constants.swift in Sources */,
+				F7266A3521D45AF800B4CD0F /* Recipe+CRUD.swift in Sources */,
+				F73447D821D2AB14001BA5EA /* NetworkManager.swift in Sources */,
+				F73447D521D2AAFC001BA5EA /* SearchRecipeViewController.swift in Sources */,
+				F73447C721D2AAC5001BA5EA /* CHEFFIN.xcdatamodeld in Sources */,
+				F73447BF21D2AAC5001BA5EA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F73447CA21D2AAC5001BA5EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F73447CB21D2AAC5001BA5EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F73447CE21D2AAC5001BA5EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F73447CF21D2AAC5001BA5EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F73447D121D2AAC5001BA5EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB0B0F834BBE82729DEBD99E /* Pods-CHEFFIN.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MKUAZKKYJT;
+				INFOPLIST_FILE = CHEFFIN/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.YR.CHEFFIN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F73447D221D2AAC5001BA5EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07B363E28EE561CC490914D0 /* Pods-CHEFFIN.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MKUAZKKYJT;
+				INFOPLIST_FILE = CHEFFIN/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.YR.CHEFFIN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F73447B621D2AAC5001BA5EA /* Build configuration list for PBXProject "CHEFFIN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F73447CE21D2AAC5001BA5EA /* Debug */,
+				F73447CF21D2AAC5001BA5EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F73447D021D2AAC5001BA5EA /* Build configuration list for PBXNativeTarget "CHEFFIN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F73447D121D2AAC5001BA5EA /* Debug */,
+				F73447D221D2AAC5001BA5EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F73447C521D2AAC5001BA5EA /* CHEFFIN.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F73447C621D2AAC5001BA5EA /* CHEFFIN.xcdatamodel */,
+			);
+			currentVersion = F73447C621D2AAC5001BA5EA /* CHEFFIN.xcdatamodel */;
+			path = CHEFFIN.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F73447B321D2AAC5001BA5EA /* Project object */;
+}
