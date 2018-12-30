@@ -21,8 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
 
         // every time the app launches we should display the login view controller
-        let searchViewController = SearchRecipeViewController()
-        window?.rootViewController = searchViewController
+        window?.rootViewController = UINavigationController(rootViewController: RootTabViewController())
         window?.makeKeyAndVisible()
         application.isStatusBarHidden = true
         // Override point for customization after application launch.

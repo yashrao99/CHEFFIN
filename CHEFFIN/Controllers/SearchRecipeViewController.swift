@@ -12,9 +12,13 @@ class SearchRecipeViewController: UIViewController {
 
     @IBOutlet weak var searchTextField: UITextField!
     @IBOutlet weak var searchButton: UIButton!
+
+    var cheffNav: CheffinNavigationViewController!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.cheffNav = self.navigationController as? CheffinNavigationViewController
+        self.cheffNav.parent?.title = "Search for your Recipe"
         self.searchButton.addTarget(self, action: #selector(searchButtonPressed), for: .touchUpInside)
     }
 
@@ -24,15 +28,8 @@ class SearchRecipeViewController: UIViewController {
         let searchURL = NetworkManager.buildURL(api: .RECIPE, parameters: searchParams)
         NetworkManager.standardGETRequest(url: searchURL) { (success, json) in
             if success {
-                //DO SOMETHING WITH JSON HERE
-                if let highLim = json!["to"].int {
-                    let totalResults = highLim - json!["from"].int!
-                    for i in 0..<totalResults {
-                        let fullRecipe = json!["hits"][i]
-                        print("YASH LOOK HERE", json!["hits"][i])
-                    }
-
-                }
+                let recipeResults = DataParserManager.extractRecipes(recipeJSON: json!)
+                self.cheffNav.pushTo(viewController: .RECIPERESULTS, meta: recipeResults)
             }
         }
     }

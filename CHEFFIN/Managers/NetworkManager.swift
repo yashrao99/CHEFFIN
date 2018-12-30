@@ -56,7 +56,11 @@ class NetworkManager: NSObject {
     }
 
     class func standardGETRequest(url: URL, completionJSON: @escaping (Bool, JSON?) -> Void) {
-        Alamofire.request(url, method: .get, parameters: nil, encoding: URLEncoding.default, headers: nil).responseString() { response in
+        Alamofire.request(url,
+                          method: .get,
+                          parameters: nil,
+                          encoding: URLEncoding.default,
+                          headers: nil).responseString() { response in
             guard response.error == nil else {
                 debugPrint("Error with response \(response.error)")
                 completionJSON(false, nil)
@@ -69,11 +73,16 @@ class NetworkManager: NSObject {
             }
             do {
                 let json = try JSON(data: response.data!)
-                print("JSON", json)
                 completionJSON(true, json)
             } catch {
                 completionJSON(false, nil)
             }
         }
+    }
+
+    class func oldSchoolData(url: URL, completionJSON: @escaping (Bool, JSON?) -> Void) {
+        
+
+
     }
 }

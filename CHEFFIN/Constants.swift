@@ -56,3 +56,7 @@ enum DIET_LABELS: String {
     case LOWCARB = "low-carb"
     case LOWSODIUM = "low-sodium"
 }
+
+enum VIEWCONRTOLLER {
+    case RECIPERESULTS
+}

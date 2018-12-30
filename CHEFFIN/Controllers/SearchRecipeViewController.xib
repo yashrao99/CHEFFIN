@@ -23,31 +23,25 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dtW-Pg-5Nk">
-                    <rect key="frame" x="62.5" y="318" width="250" height="31"/>
+                    <rect key="frame" x="63" y="318.5" width="249" height="30"/>
                     <color key="backgroundColor" red="0.36862745099999999" green="0.47450980390000003" blue="0.5568627451" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="250" id="SfC-n3-lJz"/>
-                    </constraints>
                     <nil key="textColor"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits"/>
                 </textField>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XRh-At-zR9">
-                    <rect key="frame" x="62.5" y="398" width="250" height="30"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="250" id="KSv-yU-bT8"/>
-                        <constraint firstAttribute="height" constant="30" id="m36-OO-mei"/>
-                    </constraints>
+                    <rect key="frame" x="63" y="397.5" width="249" height="30"/>
                     <state key="normal" title="Search"/>
                 </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="dtW-Pg-5Nk" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="3N0-1L-jMb"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="XRh-At-zR9" secondAttribute="bottom" constant="239" id="5R9-NZ-eaO"/>
-                <constraint firstItem="XRh-At-zR9" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="AZA-66-2tN"/>
-                <constraint firstItem="dtW-Pg-5Nk" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Ubh-Or-Mg1"/>
-                <constraint firstItem="XRh-At-zR9" firstAttribute="top" secondItem="dtW-Pg-5Nk" secondAttribute="bottom" constant="49" id="bcr-WU-XZ4"/>
+                <constraint firstItem="XRh-At-zR9" firstAttribute="top" secondItem="dtW-Pg-5Nk" secondAttribute="bottom" constant="49" id="7d8-zT-STW"/>
+                <constraint firstItem="dtW-Pg-5Nk" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="8nk-df-s36"/>
+                <constraint firstItem="dtW-Pg-5Nk" firstAttribute="trailing" secondItem="XRh-At-zR9" secondAttribute="trailing" id="Kze-i7-bEX"/>
+                <constraint firstItem="dtW-Pg-5Nk" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Zqd-Hq-98y"/>
+                <constraint firstItem="dtW-Pg-5Nk" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="63" id="wSi-Cx-1lo"/>
+                <constraint firstItem="dtW-Pg-5Nk" firstAttribute="leading" secondItem="XRh-At-zR9" secondAttribute="leading" id="xJ0-xF-M4m"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <point key="canvasLocation" x="138.40000000000001" y="152.47376311844079"/>

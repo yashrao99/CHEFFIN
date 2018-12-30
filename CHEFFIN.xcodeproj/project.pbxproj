@@ -10,6 +10,7 @@
 		40F09F58AE2F3AA385EEA175 /* Pods_CHEFFIN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 332804CC103D8ABE7771EEC0 /* Pods_CHEFFIN.framework */; };
 		F7023FB721D2AEE100E6519C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7023FB621D2AEE100E6519C /* Constants.swift */; };
 		F7266A3521D45AF800B4CD0F /* Recipe+CRUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7266A3421D45AF800B4CD0F /* Recipe+CRUD.swift */; };
+		F7266A3B21D4618000B4CD0F /* TotalDailyNutrients.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7266A3A21D4618000B4CD0F /* TotalDailyNutrients.swift */; };
 		F73447BF21D2AAC5001BA5EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73447BE21D2AAC5001BA5EA /* AppDelegate.swift */; };
 		F73447C721D2AAC5001BA5EA /* CHEFFIN.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F73447C521D2AAC5001BA5EA /* CHEFFIN.xcdatamodeld */; };
 		F73447C921D2AAC5001BA5EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F73447C821D2AAC5001BA5EA /* Assets.xcassets */; };
@@ -17,6 +18,11 @@
 		F73447D521D2AAFC001BA5EA /* SearchRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73447D321D2AAFC001BA5EA /* SearchRecipeViewController.swift */; };
 		F73447D621D2AAFC001BA5EA /* SearchRecipeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F73447D421D2AAFC001BA5EA /* SearchRecipeViewController.xib */; };
 		F73447D821D2AB14001BA5EA /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73447D721D2AB14001BA5EA /* NetworkManager.swift */; };
+		F736D55A21D8548B00DDA5C8 /* RecipeResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F736D55821D8548B00DDA5C8 /* RecipeResultsViewController.swift */; };
+		F736D55B21D8548B00DDA5C8 /* RecipeResultsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F736D55921D8548B00DDA5C8 /* RecipeResultsViewController.xib */; };
+		F736D55D21D8575700DDA5C8 /* RootTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F736D55C21D8575600DDA5C8 /* RootTabViewController.swift */; };
+		F736D55F21D85A9B00DDA5C8 /* CheffinNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F736D55E21D85A9B00DDA5C8 /* CheffinNavigationViewController.swift */; };
+		F736D56121D8669C00DDA5C8 /* DataParserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F736D56021D8669C00DDA5C8 /* DataParserManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +31,7 @@
 		BB0B0F834BBE82729DEBD99E /* Pods-CHEFFIN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHEFFIN.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CHEFFIN/Pods-CHEFFIN.debug.xcconfig"; sourceTree = "<group>"; };
 		F7023FB621D2AEE100E6519C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		F7266A3421D45AF800B4CD0F /* Recipe+CRUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Recipe+CRUD.swift"; sourceTree = "<group>"; };
+		F7266A3A21D4618000B4CD0F /* TotalDailyNutrients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalDailyNutrients.swift; sourceTree = "<group>"; };
 		F73447BB21D2AAC5001BA5EA /* CHEFFIN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CHEFFIN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F73447BE21D2AAC5001BA5EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F73447C621D2AAC5001BA5EA /* CHEFFIN.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CHEFFIN.xcdatamodel; sourceTree = "<group>"; };
@@ -34,6 +41,11 @@
 		F73447D321D2AAFC001BA5EA /* SearchRecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRecipeViewController.swift; sourceTree = "<group>"; };
 		F73447D421D2AAFC001BA5EA /* SearchRecipeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchRecipeViewController.xib; sourceTree = "<group>"; };
 		F73447D721D2AB14001BA5EA /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		F736D55821D8548B00DDA5C8 /* RecipeResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeResultsViewController.swift; sourceTree = "<group>"; };
+		F736D55921D8548B00DDA5C8 /* RecipeResultsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecipeResultsViewController.xib; sourceTree = "<group>"; };
+		F736D55C21D8575600DDA5C8 /* RootTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabViewController.swift; sourceTree = "<group>"; };
+		F736D55E21D85A9B00DDA5C8 /* CheffinNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheffinNavigationViewController.swift; sourceTree = "<group>"; };
+		F736D56021D8669C00DDA5C8 /* DataParserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataParserManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +77,37 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		F7266A3721D4611100B4CD0F /* Data_Model */ = {
+			isa = PBXGroup;
+			children = (
+				F7266A3421D45AF800B4CD0F /* Recipe+CRUD.swift */,
+				F7266A3A21D4618000B4CD0F /* TotalDailyNutrients.swift */,
+			);
+			path = Data_Model;
+			sourceTree = "<group>";
+		};
+		F7266A3821D4612300B4CD0F /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				F73447D721D2AB14001BA5EA /* NetworkManager.swift */,
+				F736D56021D8669C00DDA5C8 /* DataParserManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		F7266A3921D4612C00B4CD0F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F73447D321D2AAFC001BA5EA /* SearchRecipeViewController.swift */,
+				F736D55C21D8575600DDA5C8 /* RootTabViewController.swift */,
+				F736D55E21D85A9B00DDA5C8 /* CheffinNavigationViewController.swift */,
+				F736D55821D8548B00DDA5C8 /* RecipeResultsViewController.swift */,
+				F736D55921D8548B00DDA5C8 /* RecipeResultsViewController.xib */,
+				F73447D421D2AAFC001BA5EA /* SearchRecipeViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		F73447B221D2AAC5001BA5EA = {
 			isa = PBXGroup;
 			children = (
@@ -87,11 +130,10 @@
 			isa = PBXGroup;
 			children = (
 				F73447BE21D2AAC5001BA5EA /* AppDelegate.swift */,
-				F7266A3421D45AF800B4CD0F /* Recipe+CRUD.swift */,
-				F73447D321D2AAFC001BA5EA /* SearchRecipeViewController.swift */,
-				F73447D721D2AB14001BA5EA /* NetworkManager.swift */,
+				F7266A3721D4611100B4CD0F /* Data_Model */,
+				F7266A3921D4612C00B4CD0F /* Controllers */,
+				F7266A3821D4612300B4CD0F /* Managers */,
 				F7023FB621D2AEE100E6519C /* Constants.swift */,
-				F73447D421D2AAFC001BA5EA /* SearchRecipeViewController.xib */,
 				F73447C821D2AAC5001BA5EA /* Assets.xcassets */,
 				F73447CA21D2AAC5001BA5EA /* LaunchScreen.storyboard */,
 				F73447CD21D2AAC5001BA5EA /* Info.plist */,
@@ -161,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F73447D621D2AAFC001BA5EA /* SearchRecipeViewController.xib in Resources */,
+				F736D55B21D8548B00DDA5C8 /* RecipeResultsViewController.xib in Resources */,
 				F73447CC21D2AAC5001BA5EA /* LaunchScreen.storyboard in Resources */,
 				F73447C921D2AAC5001BA5EA /* Assets.xcassets in Resources */,
 			);
@@ -224,12 +267,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F736D56121D8669C00DDA5C8 /* DataParserManager.swift in Sources */,
 				F7023FB721D2AEE100E6519C /* Constants.swift in Sources */,
 				F7266A3521D45AF800B4CD0F /* Recipe+CRUD.swift in Sources */,
+				F736D55F21D85A9B00DDA5C8 /* CheffinNavigationViewController.swift in Sources */,
 				F73447D821D2AB14001BA5EA /* NetworkManager.swift in Sources */,
 				F73447D521D2AAFC001BA5EA /* SearchRecipeViewController.swift in Sources */,
 				F73447C721D2AAC5001BA5EA /* CHEFFIN.xcdatamodeld in Sources */,
 				F73447BF21D2AAC5001BA5EA /* AppDelegate.swift in Sources */,
+				F736D55D21D8575700DDA5C8 /* RootTabViewController.swift in Sources */,
+				F7266A3B21D4618000B4CD0F /* TotalDailyNutrients.swift in Sources */,
+				F736D55A21D8548B00DDA5C8 /* RecipeResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

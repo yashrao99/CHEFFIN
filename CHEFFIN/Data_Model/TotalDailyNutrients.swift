@@ -1,5 +1,5 @@
 //
-//  Recipe+CRUD.swift
+//  TotalDailyNutrients.swift
 //  CHEFFIN
 //
 //  Created by Yash Rao on 12/26/18.
@@ -7,12 +7,8 @@
 //
 
 import Foundation
-import MagicalRecord
-import SwiftyJSON
 
-extension Recipe {
+struct TotalDailyNutrients {
 
-    class func upsert(fullJSON: JSON) {
-
-    }
+    
 }
